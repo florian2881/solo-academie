@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://florian2881.github.io/solo-academie/sitemap.xml
