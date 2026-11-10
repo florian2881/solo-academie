@@ -61,6 +61,10 @@ C = {
  "photo": dict(md="14-photo-smartphone", slug="photo-smartphone", titre="La photo au smartphone", seo="Apprendre la photo au smartphone", prix=19, duree="21 jours", rythme="15 minutes par jour", niveau="Débutant", pages=7,
    url="https://payhip.com/b/Ji7wc", accroche="Composition, lumière et retouche pour des photos qui sortent du lot.", skills=None),
 }
+REMOVED = {"courir", "muscu", "freelance", "siteweb", "coreen", "japonais"}
+for _k in REMOVED: C.pop(_k, None)
+for _t in THEMES: _t["ids"] = [i for i in _t["ids"] if i not in REMOVED]
+THEMES = [t for t in THEMES if t["ids"]]
 THEME_OF = {cid: t for t in THEMES for cid in t["ids"]}
 
 def strip_md(s):
