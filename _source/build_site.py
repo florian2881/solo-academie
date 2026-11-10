@@ -120,6 +120,7 @@ def head(title, desc, path, depth, extra_ld=None, og_img="assets/og.jpg"):
 <meta property="og:image" content="{BASE}/{og_img}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#17352b">
+<meta name="google-site-verification" content="e4r3uuOzoxMJQv6gyVcO5iTqb2DGRmkEAErruzMM8QU">
 <link rel="icon" href="{pre}assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
